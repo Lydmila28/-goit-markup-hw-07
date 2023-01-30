@@ -6,8 +6,11 @@
     padding-top: 94px;
     padding-bottom: 94px;
         }
+ .benefits__title {
+         @include visually-hidden;   
+        }
  .benefits__element {
-           width: 270px; 
+        width: 270px; 
     }
  .benefits__element:not(:first-child)
     {

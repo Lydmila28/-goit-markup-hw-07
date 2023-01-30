@@ -1,7 +1,6 @@
 //  Utils
-@import './utils/font';
-@import './utils/normalize';
 @import './utils/variables';
+@import './utils/mixins';
 // Base
 @import './base/base';
 @import './base/reset';
@@ -12,8 +11,6 @@
 // Component
 @import './components/button';
 @import './components/overlay';
-@import './components/visually-hidden';
-
 @import './components/site-nav';
 @import './components/contact';
 @import './components/hero-section';
